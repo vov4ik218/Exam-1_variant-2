@@ -1,0 +1,23 @@
+.header,
+.main,
+.footer {
+    padding-left: calc(50vw - 585px);
+    padding-right: calc(50vw - 585px);
+
+    @media screen and (max-width: 1200px) {
+        padding-left: calc(50vw - 480px);
+        padding-right: calc(50vw - 480px);
+    }
+    @media screen and (max-width: 992px) {
+        padding-left: calc(50vw - 366px);
+        padding-right: calc(50vw - 366px);
+    }
+    @media screen and (max-width: 768px) {
+        padding-left: 34px;
+        padding-right: 34px;
+    }
+    @media screen and (max-width: 576px) {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}
