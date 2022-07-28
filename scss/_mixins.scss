@@ -3,3 +3,33 @@
     justify-content: $justify;
     align-items: $align;
 }
+
+@mixin fonts($f-family, $f-size, $f-weigth, $ln-height) {
+    font-family: $f-family;
+    font-size: $f-size;
+    font-weight: $f-weigth;
+    line-height: $ln-height;
+}
+
+@mixin column-center($column, $center) {
+    flex-direction: $column;
+    text-align: $center;
+}
+
+@mixin posn-top_rt($absolute, $top, $right, $z-index) {
+    position: $absolute;
+    top: $top;
+    right: $right;
+    z-index: $z-index;
+}
+
+@mixin border($border, $radius, $shadow) {
+    border: $border;
+    border-radius: $radius;
+    box-shadow: $shadow
+}
+
+@mixin width-height($width, $height) {
+    width: $width;
+    height: $height;
+}
