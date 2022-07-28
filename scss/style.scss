@@ -154,7 +154,7 @@ a {
     color: #212353;
 
     @media screen and (max-width: 576px) {
-        @include width-height(180px, 50px);
+        @include width-height(190px, 50px);
     }
 
     &:hover {
